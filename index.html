@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script src="js/jquery-3.6.0.js"></script> -->
     <title>Programming Language Suggester</title>
   </head>
   <body>
@@ -19,10 +14,10 @@
         <label for="age">How old are you?</label>
         <input id="age" type="number" class="form-control" min="18" />
         <label for="copuuter-part">Your favorite pat of computer?</label>
-        <select id="computer-part" class="form-control">
-          <option selected disabled>--- Select ---</option>
-          <option>Display</option>
-          <option>How it works</option>
+        <select id="computer" class="form-control">
+          <option value="1" selected disabled>--- Select ---</option>
+          <option value="2">Display</option>
+          <option value="3">How it works</option>
         </select>
         <label for="fav-activity">Which activity would you prefer? </label>
         <select id="activity" class="form-control">
