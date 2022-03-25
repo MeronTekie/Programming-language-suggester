@@ -3,10 +3,10 @@ $(document).ready(function () {
     event.preventDefault();
 
     const age = parseInt($("input#age").val());
-    const computerPart = parseInt($("#computer").val());
+    const computerPart = parseInt($("#computerPart").val());
     const activity = parseInt($("select#activity").val());
-    const favoriteFood = parseInt($("select#fav-food").val());
-    const favoriteMusic = parseInt($("select#age").val());
+    const favoriteFood = parseInt($("select#favFood").val());
+    const favoriteMusic = parseInt($("select#favMusic").val());
 
     if (age <= "25" && activity <= "2" && computerPart == "2") {
       $("#output").text("We highly recommend you to study JavaScript!");
