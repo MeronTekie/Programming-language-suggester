@@ -2,7 +2,7 @@
 
 #### Meron G.Tekie
 
-#### A brief highlight of my interests ,skills and academic background
+#### Website helpful for deciding which language best suits for you
 
 ## Technologies Used
 
