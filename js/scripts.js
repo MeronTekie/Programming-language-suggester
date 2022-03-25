@@ -12,12 +12,12 @@ $(document).ready(function () {
       $("#output").text("We highly recommend you to study JavaScript!");
     } else if (
       age >= "26" &&
-      age < "40" &&
+      age < "30" &&
       activity == "3" &&
       computerPart == "3"
     ) {
       $("#output").text("Jave suits perfectly for you!");
-    } else if (age >= "40" && activity >= "1" && computerPart >= "1") {
+    } else if (age >= "30" && activity >= "1" && computerPart >= "1") {
       $("#output").text("Python may be  the most suitable language for you!");
     } else {
       $("#output").text(
