@@ -1,4 +1,4 @@
-// User InterfaceLogic
+// User Interface Logic
 
 $(document).ready(function () {
   $("form#suggester").submit(function (event) {
